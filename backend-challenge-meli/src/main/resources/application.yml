@@ -1,0 +1,17 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 100000
+        readTimeout: 100000
+
+spring:
+  application:
+    name: backend-challenge-meli
+
+clients:
+  meli:
+    auth: "APP_USR-5628553330344221-051114-63e2c31f3239ca706221f20a276b7b5d-1803824243"
+    
+server:
+  port: 8080
